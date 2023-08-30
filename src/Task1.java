@@ -7,10 +7,10 @@ public class Task1 {
 
 
             thread1.start();
-            System.out.println("First thread:"+thread1.getName());
+            System.out.println("1ci:"+thread1.getName());
 
             thread2.start();
-            System.out.println("Second thread:"+thread2.getName());
+            System.out.println("2ci:"+thread2.getName());
         }
 
         public static class Task implements Runnable {
